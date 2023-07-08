@@ -151,5 +151,10 @@ body{
    .main_container input{
         width: 200px;
    }
+
+     @media (max-width:596px){
+    #input_text{
+        width: 200px;
+    }
 }
 
