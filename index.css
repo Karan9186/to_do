@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+    text-transform: capitalize;
+    transition: 0.7s;
+}
+html{
+    overflow-x:hidden;
+}
+body{
+    overflow-x: hidden;
+}
+#dashboard_section{
+    box-shadow: 10px 3px 4px grey;
+}
+
+.con_01{
+    margin-left: 110vh;
+    margin-top: 10vh;
+}
+
+.con_01 h1{
+    color:red;
+    margin-left:-100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -50px;
+    font-size:30px;
+    text-decoration: underline;
+}
+
+.main_container{
+    margin:80px 0px 0px 65vh;
+    padding:40px 40px;
+    background-color:azure;
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    border:3px solid white
+}
+.main_container input{
+    height: 30px;
+    width: 49vh;
+    font-size:17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+    border:2px solid black;
+    position: relative;
+}
+
+.main_container button{
+    padding:3px 29px;
+    font-size:17px;
+    text-transform: uppercase;
+    border:2px solid red;
+    /* background-color: red; */
+    /* color:white; */
+    border-radius: 20px;
+    transition: 0.4s;
+    font-weight: 900;
+}
+
+.main_container button:hover{
+    background-color: blue;
+    color:white;
+}
+
+
+
+.output_list{
+    margin-top:30px;
+    font-size: 20px;
+    text-align: left;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 300px;
+    color:white;
+    font-weight: 900;
+    border:2px solid black;
+    background-image: url('back_img.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    padding:7px 10px;
+}
+
+.my_name{
+    font-size: 20px;
+    margin-top:40px;
+    text-align: center;
+    color:grey
+}
+@media (max-width:912px){
+    .main_container{
+        margin-left:100px
+    }
+    #input_text{
+        width: 400px;
+    }
+    #btn1{
+        margin-top:20px
+    }
+    .output_list{
+        height: 250px;
+    }
+    .con_01 h1{
+        margin-left:-83vh
+    }
+}
+
+@media (max-width:830px){
+    .con_01 h1{
+        margin-left:-83vh
+    }
+    .main_container{
+        margin-left:7vh;
+        height: 500px;
+    }
+    .main_container input{
+        width: 440px;
+    }
+    .main_container button{
+        margin-top:20px
+    }
+}
+
+@media (max-width:600px){
+    #dashboard_section{
+        /* background-color: red; */
+        width:300vh;
+    }
+    .con_01 h1{
+        margin-left:-91vh
+        /* text-align: center; */
+    }
+    .main_container{
+        margin-left: 20px;
+        height: 400px;
+        width: 250px;
+
+    }
+    .main_container button{
+        margin-top:10px
+    }
+    .output_list{
+        height: 250px;
+
+    }
+   .main_container input{
+        width: 200px;
+   }
+}
+
